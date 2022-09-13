@@ -28,7 +28,7 @@ html {
 body {
     max-width: 1420px;
     margin: 0 auto;
-    background-image: url(https://samuelurbi.github.io/samuelurbi.com/src/assets/img/grid-texture.png);
+    background-image: url(/src/assets/img/grid-texture.png);
     background-color: var(--color-dark);
     background-size: 32px;
     background-position: 0px;
@@ -182,7 +182,7 @@ ul {
 /*CSS header mobile*/
 
 .header-mobile {
-    display: flex;
+    display: none;
     position: fixed;
     left: 0;
     right: 0;
