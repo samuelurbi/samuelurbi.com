@@ -53,17 +53,17 @@
     src: local('Caros Light Italic'), url('cretype  Caros Light Italic.woff') format('woff');
 }
 @font-face {
-    font-family: 'Cooper-Std-Black';
+    font-family: 'CooperStdBlack';
     font-display: auto;
     font-style: normal;
     font-weight: normal;
-    src: local('Cooper Std Black'), url(https://samuelurbi.com/src/assets/fonts/cooper-black-webfont/CooperBlack-Std.woff) format('woff');
+    src: local('Cooper'), url(./src/assets/fonts/cooper-black-webfont/CooperBlack-Std.woff) format('woff');
 }
 @font-face {
-    font-family: 'Cooper Std Black Italic';
+    font-family: 'CooperStdBlackItalic';
     font-style: normal;
     font-weight: normal;
-    src: local('Cooper Std Black Italic'), url('CooperBlack-StdItal.woff') format('woff');
+    src: local('Cooper Italic'), url('CooperBlack-StdItal.woff') format('woff');
 }
 html {
     font-family: Caros, Helvetica, sans-serif;
@@ -127,7 +127,7 @@ a {
 /*-----*/
 
 .cooper {
-    font-family: Cooper Std Black;
+    font-family: CooperStdBlack;
     letter-spacing: 1px;
 }
 .weight-regular {
