@@ -57,7 +57,7 @@
     font-display: auto;
     font-style: normal;
     font-weight: normal;
-    src: url(/src/assets/fonts/cooper-black-webfont/CooperBlack-Std.ttf) format(truetype), url(/src/assets/fonts/cooper-black-webfont/CooperBlack-Std.woff) format('woff');
+    src: url(https://samuelurbi.com/src/assets/fonts/cooper-black-webfont/CooperBlack-Std.ttf) format(truetype), url(https://samuelurbi.com/src/assets/fonts/cooper-black-webfont/CooperBlack-Std.woff) format('woff');
 }
 @font-face {
     font-family: 'CooperStdBlackItalic';
