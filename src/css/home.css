@@ -63,12 +63,33 @@
 }
 #float-photo {
     position: absolute;
-    top: -90px;
-    right: 50px;
+    top: -100px;
+    right: 35px;
     z-index: 1;
 }
+#float-photo::after {
+    content: 'Mucho gusto!!';
+    position: absolute;
+    visibility: hidden;
+    width: 100px;
+    height: 25px;
+    padding: 4px 12px;
+    border: 1px solid #ffffff0D;
+    border-radius: 8px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 2em;
+    background-color: #00000040;
+    backdrop-filter: blur( 8px );
+    -webkit-backdrop-filter: blur( 8px );
+    top: -20px;
+    left: calc(-25% - 30px);
+}
+#float-photo:hover::after {
+    visibility: visible;
+}
 #float-photo img {
-    width: 110px;
+    width: 100px;
     filter: drop-shadow(3px 3px 2px #00000066);
 }
 
