@@ -91,7 +91,7 @@ a {
 /*-----*/
 
 .cooper {
-    font-family: Cooper Std Black;
+    font-family: Cooper Std Black, sans-serif;
     letter-spacing: 1px;
 }
 .weight-regular {
@@ -168,7 +168,7 @@ a {
     left: -25px;
     right: 0;
     margin: auto;
-    background-color: #ffffff12;
+    background-color: #ffffff1A;
     position: absolute;
     transform: scale(0);
     transition: .3s;
@@ -186,7 +186,7 @@ a {
     left: -25px;
     right: 0;
     margin: auto;
-    background-color: #00000014;
+    background-color: #0000001A;
     position: absolute;
     transform: scale(0);
     transition: .3s;
@@ -200,7 +200,23 @@ a {
 
 /*/-----Media Querys/-----*/
 
+@media only screen and (max-width: 1024px) {
+    :root {
+        --font-display-sm: 40px;
+        --font-display-md: 48px;
+        --font-display-lg: 56px;
+        --font-display-xl: 64px;
+        --font-display-xxl: 72px;
+    }
+}
 @media only screen and (max-width: 768px) {
+    :root {
+        --font-display-sm: 36px;
+        --font-display-md: 44px;
+        --font-display-lg: 52px;
+        --font-display-xl: 60px;
+        --font-display-xxl: 68px;
+    }
     .section {
         padding: 0 20px;
     }

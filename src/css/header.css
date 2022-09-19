@@ -130,9 +130,9 @@ header {
     width: 100%;
     max-width: 1420px;
     margin: auto;
-    background-color: #060B1D80;
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
+    background-color: #060B1De6;
+    backdrop-filter: blur( 8px );
+    -webkit-backdrop-filter: blur( 8px );
     border-radius: 20px 20px 0px 0px;
     box-shadow: inset 1.5px 1.5px 2px -.5px rgba(255, 255, 255, 0.12);
 }
@@ -145,7 +145,7 @@ div.header-mobile {
     justify-content: center;
     flex-direction: column;
     width: 20%;
-    padding: 4px 8px;
+    padding: 2px 8px 0px 8px;
     margin: 10px 0;
     border-radius: 50px;
     position: relative
