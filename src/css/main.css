@@ -21,7 +21,7 @@
     font-family: 'Caros Regular';
     font-style: normal;
     font-weight: normal;
-    src: url((https://samuelurbi.com/src/assets/fonts/caros-webfont/Caros.woff) format('woff');
+    src: url(https://samuelurbi.com/src/assets/fonts/caros-webfont/Caros.woff) format('woff');
 }
 @font-face {
     font-family: 'Cooper Std Black';
