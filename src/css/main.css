@@ -54,6 +54,7 @@
 }
 @font-face {
     font-family: 'Cooper-Std-Black';
+    font-display: auto;
     font-style: normal;
     font-weight: normal;
     src: local('Cooper Std Black'), url(/src/assets/fonts/cooper-black-webfont/CooperBlack-Std.woff) format('woff');
