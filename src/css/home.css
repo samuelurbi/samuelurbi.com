@@ -114,8 +114,8 @@
         width: calc(50vw + 5px) !important;
     }
     #float-photo {
-        top: -65px;
-        right: 15px;
+        top: -70px;
+        right: 10px;
     }
     #float-photo img {
         width: 75px;
