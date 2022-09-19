@@ -53,7 +53,7 @@
     src: local('Caros Light Italic'), url('cretype  Caros Light Italic.woff') format('woff');
 }
 @font-face {
-    font-family: 'CooperStdBlack';
+    font-family: 'Cooper Std Black';
     font-display: auto;
     font-style: normal;
     font-weight: normal;
@@ -127,7 +127,7 @@ a {
 /*-----*/
 
 .cooper {
-    font-family: CooperStdBlack;
+    font-family: Cooper Std Black;
     letter-spacing: 1px;
 }
 .weight-regular {
