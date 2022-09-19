@@ -16,6 +16,42 @@
     --font-body-sm: 14px;
     --font-body-xs: 12px;
 }
+@font-face {
+    font-family: 'Caros Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Caros Regular'), url(https://samuelurbi.com/src/assets/fonts/caros-webfont/cretype\ \ Caros.woff) format('woff');
+}
+@font-face {
+    font-family: 'Caros Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Caros Italic'), url('cretype  Caros Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Caros Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Caros Bold'), url('cretype  Caros Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Caros Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Caros Bold Italic'), url('cretype  Caros Bold Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Caros Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Caros Light'), url('cretype  Caros Light.woff') format('woff');
+}
+@font-face {
+    font-family: 'Caros Light Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Caros Light Italic'), url('cretype  Caros Light Italic.woff') format('woff');
+}
 html {
     font-family: Caros, Helvetica, sans-serif;
     color: white;

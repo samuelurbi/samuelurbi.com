@@ -47,3 +47,24 @@
 .swiper-slide img {
     width: calc(100% - 10px);
 }
+
+
+
+/*/-----Media Querys/-----*/
+
+@media only screen and (max-width: 1024px) {
+    .swiper {
+        width: calc(100vw + 15px);
+    }
+    .swiper-slide {
+        width: calc(33.33vw + 5px) !important;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .swiper {
+        width: calc(100vw + 10px);
+    }
+    .swiper-slide {
+        width: calc(50vw + 5px) !important;
+    }
+}
